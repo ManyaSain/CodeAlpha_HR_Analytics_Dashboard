@@ -1,108 +1,153 @@
-# 📊 HR Analytics — Workforce & Employee Insights
+# HR Analytics — Executive Dashboard
 
-> An interactive Power BI dashboard designed to analyze workforce trends, employee attrition, job satisfaction, performance, and hiring requirements for data-driven HR decision-making.
+An interactive Power BI dashboard designed to analyze workforce trends, employee attrition, job satisfaction, management ratings, and hiring patterns to support data-driven HR decision-making.
 
 ---
 
 ## 📌 Project Overview
 
-The **HR Analytics Dashboard** provides a comprehensive view of employee and workforce data through interactive visualizations and key performance indicators.
+The **HR Analytics — Executive Dashboard** provides a comprehensive view of key workforce and employee metrics through interactive visualizations and filters.
 
-The project focuses on identifying employee attrition patterns, understanding satisfaction and performance levels, analyzing workforce trends, and using historical hiring data to forecast future hiring requirements.
+The dashboard focuses on understanding employee attrition, satisfaction, performance-related indicators, workforce composition, and historical hiring trends. It also uses Power BI forecasting to provide an indication of future workforce/hiring requirements.
 
 ---
 
 ## 🎯 Project Objectives
 
-The dashboard was developed to:
+The main objectives of this project are:
 
-- 📉 Analyze employee attrition and turnover patterns
-- 👥 Track workforce and recruitment-related metrics
-- 😊 Analyze employee job satisfaction
-- ⭐ Evaluate employee performance and manager ratings
-- 📈 Identify historical hiring trends
-- 🔮 Forecast future hiring requirements
-- 💡 Support data-driven HR decision-making
-
----
-
-## 📊 Dashboard Highlights
-
-### Executive HR Overview
-
-The dashboard includes:
-
-- Total Employees
-- Active Employees
-- Attrition Count
-- Attrition Rate
-- Average Employee Age
-- Average Salary
-
-### Key Visualizations
-
-- **Attrition by Department & Job Role**
-- **Employee Job Satisfaction Distribution**
-- **Performance Rating vs Attrition**
-- **Manager Rating vs Attrition**
-- **Hiring Trend & Forecast**
-
-### Interactive Filters
-
-Users can explore the dashboard using filters such as:
-
-- Department
-- Job Role
-- Gender
-- Overtime
-- Business Travel
-- Education Field
+- Track employee recruitment and workforce-related metrics.
+- Analyze employee attrition and turnover patterns.
+- Analyze employee job satisfaction.
+- Examine performance and management rating patterns.
+- Identify attrition trends across departments and job roles.
+- Analyze gender-wise attrition distribution.
+- Analyze historical workforce/hiring trends.
+- Forecast future hiring/workforce requirements.
+- Provide an interactive dashboard for HR decision-making.
 
 ---
 
-## 🔍 Key Analysis Areas
+## 📊 Dashboard Features
 
-### Employee Attrition
-Analyzes employee turnover across departments and job roles to identify areas with higher attrition.
+### Key Performance Indicators (KPIs)
 
-### Employee Satisfaction
-Examines job satisfaction levels and their relationship with employee attrition.
+The dashboard includes the following major KPIs:
 
-### Employee Performance
-Analyzes performance and manager ratings to understand workforce performance patterns.
+- **Total Employees**
+- **Active Employees**
+- **Attrition Count**
+- **Attrition Rate**
+- **Average Age**
+- **Average Salary**
 
-### Recruitment & Hiring Trends
-Tracks historical hiring patterns and provides a forecast to support future workforce planning.
+### Interactive Visualizations
+
+The dashboard contains:
+
+1. **Attrition Count by Department and Job Role**
+   - Identifies departments and job roles with higher attrition.
+
+2. **Employee Job Satisfaction Distribution**
+   - Shows employee distribution across different job satisfaction ratings.
+   - Provides an attrition-based comparison.
+
+3. **Manager Rating vs Attrition**
+   - Analyzes the relationship between manager ratings and employee attrition.
+
+4. **Hiring Trend & Forecast**
+   - Shows historical workforce/hiring trends.
+   - Uses Power BI forecasting to estimate future trends.
+
+5. **Attrition Distribution by Gender**
+   - Provides a gender-wise view of employee attrition.
+
+---
+
+## 🎛️ Interactive Slicers
+
+Users can dynamically filter the dashboard using:
+
+- **Department**
+- **Job Role**
+- **Gender**
+- **Over Time**
+
+These slicers allow HR users to explore specific employee groups and analyze workforce patterns interactively.
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-| Tool | Purpose |
-|------|---------|
-| **Power BI** | Dashboard development & data visualization |
-| **DAX** | Measures & KPI calculations |
-| **Microsoft Excel** | Data preparation and analysis |
-| **Power BI Forecasting** | Future hiring trend estimation |
+- **Microsoft Power BI**
+- **Power Query**
+- **DAX**
+- **Microsoft Excel**
+- **Data Cleaning & Transformation**
+- **Data Visualization**
+- **HR Analytics**
+- **Predictive / Forecasting Analytics**
 
 ---
 
-## 📂 Repository Structure
+## 🔄 Data Preparation
+
+The dataset was prepared and transformed before visualization.
+
+The data preparation process included:
+
+- Data cleaning
+- Data validation
+- Data transformation
+- Handling and organizing required fields
+- Preparing categorical and numerical fields
+- Creating analytical measures using DAX
+- Preparing data for visualization and forecasting
+
+Power Query was used within Power BI for data transformation and preparation.
+
+---
+
+## 📈 Forecasting
+
+The **Hiring Trend & Forecast** visualization uses Power BI's forecasting functionality to analyze historical workforce trends and estimate potential future requirements.
+
+This helps demonstrate how historical HR data can be used to support workforce planning and future hiring decisions.
+
+---
+
+## 💡 Key Insights
+
+The dashboard can help HR teams:
+
+- Identify areas with higher employee attrition.
+- Compare attrition across departments and job roles.
+- Understand employee satisfaction patterns.
+- Examine the relationship between management ratings and attrition.
+- Analyze gender-wise workforce and attrition patterns.
+- Monitor workforce trends over time.
+- Support future workforce and hiring planning.
+
+---
+
+## 📁 Repository Structure
 
 ```text
-HR-Analytics-Dashboard/
+HR-Analytics-Executive-Dashboard/
 │
-├── 📊 Dashboard/
-│   └── HR_Analytics_Dashboard.pbix
+├── README.md
 │
-├── 📁 Dataset/
+├── HR_Analytics_Executive_Dashboard.pbix
+│
+├── data/
 │   └── HR_Analytics_Dataset.xlsx
 │
-├── 📄 Documentation/
+├── dashboard/
+│   └── HR_Analytics_Dashboard.png
+│
+├── documentation/
 │   ├── Project_Report.pdf
-│   └── Dashboard_Screenshots/
+│   └── Data_Dictionary.xlsx
 │
-├── 📚 Research_Paper/
-│   └── Research_Paper.pdf
-│
-└── 📖 README.md
+└── references/
+    └── Research_References.pdf
